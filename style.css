@@ -1,0 +1,1778 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navigation container starts from here */
+.nav-container {
+    height: 125px;
+    width: 100%;
+    background-color: #1d2a35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#logo {
+    cursor: pointer;
+    width: 75px;
+    height: 70px;
+}
+
+#logo::after {
+    content: '';
+    clear: both;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    flex-direction: left;
+
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: .4s;
+    font-size: 1.2em;
+
+
+}
+
+ul li a:hover {
+    color: #a0144f;
+
+}
+
+.menu-item {
+    padding: 0px 15px;
+}
+
+#upgrade {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+#upgrade:hover {
+    background-color: #0e76b7;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+
+#get {
+    background-color: #ffe793;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+#get:hover {
+    background-color: #04aa6d;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+
+#website {
+    background-color: #0e76b7;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+#website:hover {
+    background-color: #ffffff;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+
+#login {
+    background-color: #04aa6d;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+#login:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+/* Navigation container ends here */
+
+/* main section starts from here */
+.main-container {
+    background-color: #0d1721;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #ffc0c2;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 130px 15px 15px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 30px;
+}
+
+.form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color: #04aa6d;
+    color: #f9004d;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    transition: .4s;
+}
+
+.form input:last-child:hover {
+    transform: scale(1.3);
+}
+
+
+/* second main section starts from here */
+
+
+.html {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #d9eee1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.html-container {
+    position: relative;
+
+    top: 20%;
+    left: 5%;
+    width: 50%;
+
+}
+
+.html-header {
+    color: #0d1721;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-left: 8%;
+
+}
+
+.para1 {
+    color: #04aa6d;
+    font-size: 25px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-button {
+    padding-left: 8%;
+    clear: both;
+}
+
+#learn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#learn:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#video {
+    background-color: #1976da;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+#video:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#references {
+    background-color: #26a60c;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#references:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#certified {
+    background-color: #aaaa04;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#certified:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+
+
+.card {
+
+    width: 50%;
+    float: right;
+    height: 440px;
+    margin-top: 125px;
+    background-color: #aaaa04;
+
+}
+
+#exp {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#image1 {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.try-it {
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.try-it:hover {
+    transition: .4s;
+    background-color: #f9004d;
+}
+
+.html::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* css section starts */
+
+.css {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff4a3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.css-container {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+    right: 3%;
+
+
+}
+
+.css-header {
+    color: #0d1721;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-left: 10%;
+
+}
+
+.para1 {
+    color: #04aa6d;
+    font-size: 25px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-button {
+    padding-left: 8%;
+    clear: both;
+}
+
+#learn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#learn:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#references {
+    background-color: #26a60c;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#references:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#certified {
+    background-color: #aaaa04;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#certified:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+.css::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+.card {
+
+    width: 50%;
+    float: right;
+    height: 440px;
+    margin-top: 125px;
+    background-color: #aaaa04;
+
+}
+
+#exp {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#image1 {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.try-it {
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.try-it:hover {
+    transition: .4s;
+    background-color: #f9004d;
+}
+
+/* css section ends */
+
+/* javascript starts here */
+
+
+.java-script {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #0d1721;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.js-container {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+    right: 3%;
+
+
+}
+
+.js-header {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-left: 3%;
+
+}
+
+.para1 {
+    color: #04aa6d;
+    font-size: 25px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-button {
+    padding-left: 10%;
+    clear: both;
+}
+
+#learn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#learn:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#references {
+    background-color: #26a60c;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#references:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#certified {
+    background-color: #aaaa04;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#certified:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+.card {
+
+    width: 50%;
+    float: right;
+    height: 440px;
+    margin-top: 125px;
+    background-color: #aaaa04;
+
+}
+
+#exp {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#image1 {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.try-it {
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.try-it:hover {
+    transition: .4s;
+    background-color: #f9004d;
+}
+
+.java-script::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* javascript ends here */
+
+/* SQL section starts from here */
+
+.sql {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #96d4d4;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sql-container {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+    right: 3%;
+
+
+}
+
+.sql-header {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-left: 10%;
+
+}
+
+.para1 {
+    color: #04aa6d;
+    font-size: 25px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.menu-button {
+    padding-left: 10%;
+    clear: both;
+}
+
+#learn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#learn:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#references {
+    background-color: #26a60c;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#references:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#certified {
+    background-color: #aaaa04;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+#certified:hover {
+    background-color: #f9004d;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+
+.card {
+
+    width: 50%;
+    float: right;
+    height: 440px;
+    margin-top: 125px;
+    background-color: #aaaa04;
+
+}
+
+#exp {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#image1 {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.try-it {
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.try-it:hover {
+    transition: .4s;
+    background-color: #f9004d;
+}
+
+.sql::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* banner section starts from here */
+
+.bannrer-container {
+    width: 100%;
+    height: 160vh;
+    background-color: #1d2a35;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: auto;
+    padding-top: 50px;
+
+
+
+
+
+}
+
+
+
+/* php banner starts */
+
+.php-card {
+
+    border: 2px solid transparent;
+    background-color: #f9004d;
+    width: 40%;
+    height: 250px;
+    border-radius: 25px;
+
+
+}
+
+#php {
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+}
+
+#php-para {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#php-button {
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+
+
+}
+
+#php-button:hover {
+    background-color: rgb(0, 242, 255);
+
+}
+
+
+
+
+/* jquery starts from here */
+.jquery-card {
+
+    border: 2px solid transparent;
+    background-color: #9b4762;
+    width: 40%;
+    height: 250px;
+    border-radius: 25px;
+
+
+}
+
+#jquery {
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+}
+
+#jquery-para {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#jquery-button {
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+
+
+}
+
+#jquery-button:hover {
+    background-color: rgb(255, 0, 34);
+
+}
+
+
+/* java starts here */
+
+.java-card {
+
+    border: 2px solid transparent;
+    background-color: #d4ca00;
+    width: 40%;
+    height: 250px;
+    border-radius: 25px;
+
+
+}
+
+#java {
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+}
+
+#java-para {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#java-button {
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+
+
+}
+
+#java-button:hover {
+    background-color: rgb(0, 242, 255);
+
+}
+
+
+/* python starts here */
+
+.python-card {
+
+    border: 2px solid transparent;
+    background-color: #00b4d4;
+    width: 40%;
+    height: 250px;
+    border-radius: 25px;
+
+
+}
+
+#python {
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+}
+
+#python-para {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#python-button {
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+
+
+}
+
+#python-button:hover {
+    background-color: rgb(255, 0, 34);
+
+}
+
+
+/* c++ starts from here */
+
+.c-card {
+
+    border: 2px solid transparent;
+    background-color: #9f00d4;
+    width: 40%;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 45px;
+
+
+}
+
+#c {
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+
+}
+
+#c-para {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#c-button {
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+
+
+}
+
+#c-button:hover {
+    background-color: rgb(0, 242, 255);
+
+}
+
+
+/* bootstrap starts from here */
+
+.bootstrap-card {
+
+    border: 2px solid transparent;
+    background-color: #00d47c;
+    width: 40%;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 75px;
+    margin-right: 30px;
+
+
+
+}
+
+#bootstrap {
+    font-size: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+    overflow: hidden;
+}
+
+#bootstrap-para {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#bootstrap-button {
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+
+}
+
+#bootstrap-button:hover {
+    background-color: rgb(255, 0, 34);
+
+}
+
+
+
+.bannrer-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* banner section ends here */
+
+
+/* mini card section starts from here */
+.minicard {
+    width: 100%;
+    height: 120vh;
+    background-color: #1d2a35;
+
+
+
+
+
+
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+
+}
+
+/* c div starting here */
+
+.c1-container {
+    width: 45%;
+    height: 120px;
+    background-color: #ffc0c7;
+    border: 2px solid transparent;
+    border-radius: 25px;
+
+
+
+}
+
+#c1 {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* c# starts here */
+
+.c2-container {
+    width: 45%;
+    height: 120px;
+    background-color: #fff4a3;
+    border: 2px solid transparent;
+    border-radius: 25px;
+
+
+}
+
+#c2 {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* r starts here */
+
+.flex2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px 12px 0px 12px;
+}
+
+.r-container {
+    width: 22%;
+    height: 120px;
+    background-color: #f3ecea;
+    border: 2px solid transparent;
+    border-radius: 25px;
+
+
+}
+
+#r {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* kotlin starts here */
+
+.kotlin-container {
+    width: 22%;
+    height: 120px;
+    background-color: #d9eee1;
+    border: 2px solid transparent;
+    border-radius: 25px;
+
+
+}
+
+#kotlin {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* node starts here */
+
+.node-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+
+
+}
+
+#node {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* react starts here */
+
+.react-container {
+    width: 22%;
+    height: 120px;
+    background-color: #ffc0c7;
+    border: 2px solid transparent;
+    border-radius: 25px;
+
+
+}
+
+#react {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* mysql starts here */
+
+.mysql-container {
+    width: 22%;
+    height: 120px;
+    background-color: #fff4a3;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#mysql {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* xml starts from here */
+
+.xml-container {
+    width: 22%;
+    height: 120px;
+    background-color: #f3ecea;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#xml {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* sass starts from here */
+
+.sass-container {
+    width: 22%;
+    height: 120px;
+    background-color: #d9eee1;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#sass {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* icon starts here */
+
+.icon-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#icon {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* rwd starts here */
+.rwd-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#rwd {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* graphics starts here */
+
+.graphics-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#graphics {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* svg starts here */
+
+.svg-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#svg {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* 
+canvas starts here */
+
+.canvas-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#canvas {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* colors starts here */
+
+.colors-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#colors {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* git starts here */
+
+.git-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#git {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* 
+pandas starts here */
+
+.pandas-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#pandas {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+/* django starts here */
+
+.django-container {
+    width: 22%;
+    height: 120px;
+    background-color: #96d4d4;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+
+#django {
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+}
+
+
+.minicard::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* footer section starts from here */
+
+
+.footer-container {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: #00d47c;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.foothead-container {
+    display: flex;
+
+
+}
+
+/* quiz section starts here */
+
+.quiz-container {
+    width: 90px;
+    height: 40px;
+    margin: 30px 0px 0px 20px;
+    padding: 6px 14px;
+    background-color: #d4ca00;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.quiz-container:hover{
+    background-color: #1d2a35;
+}
+
+.quiz {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+/* exercise starts here */
+.exercise-container {
+    width: 100px;
+    height: 40px;
+    margin: 30px 0px 0px 20px;
+    padding: 6px 14px;
+    background-color: #d4ca00;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.exercise-container:hover{
+    background-color: #1d2a35;
+}
+
+.exercise {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+
+
+}
+
+/* support starts here */
+.support-container {
+    width: 90px;
+    height: 40px;
+    margin: 30px 0px 0px 20px;
+    padding: 6px 14px;
+    background-color: #d4ca00;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.support-container:hover{
+    background-color: #1d2a35;
+}
+.support {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+/* certificates starts here */
+
+.certificates-container {
+    width: 120px;
+    height: 40px;
+    margin: 30px 0px 0px 20px;
+    padding: 6px 14px;
+    background-color: #d4ca00;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.certificates-container:hover{
+    background-color: #1d2a35;
+}
+
+.certificates {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+/* upgrade starts here */
+.upgrade-container {
+    width: 100px;
+    height: 40px;
+    margin: 30px 0px 0px 20px;
+    padding: 6px 14px;
+    background-color: #d4ca00;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.upgrade-container:hover{
+    background-color: #1d2a35;
+}
+
+.upgrade {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+
+
+}
+
+/* newsletter starts here */
+
+.newsletter-container {
+    width: 120px;
+    height: 40px;
+    margin: 30px 0px 0px 20px;
+    padding: 6px 14px;
+    background-color: #d4ca00;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+
+}
+.newsletter-container:hover{
+    background-color: #1d2a35;
+}
+.newsletter {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+
+
+}
+
+
+/* text section starts here */
+.text{
+    margin: 30px 10px 0px 360px;
+}
+.text ul{
+    text-decoration: none;
+
+
+}
+.text ul li{
+    list-style-type: none;
+}
+.text ul li a{
+    font-size: 1.2rem;
+    color: #0d1721;
+    transition: .4s;
+}
+.text ul li a:hover{
+   transform: scale(1.2);
+   color: tomato;
+}
+
+
+/* social links starts */
+.social-link{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 25px 0 0;
+    
+   
+}
+.social-space{
+    margin-right: 10px;
+
+}
+
+/* facebook starts here */
+
+.fa-facebook{
+    transition: .4s;
+  
+}
+.fa-facebook:hover{
+    transform: scale(1.3);
+   color: red;
+}
+
+/* linkdin starts here */
+
+.fa-linkedin{
+    transition: .4s;
+}
+.fa-linkedin:hover{
+    transform: scale(1.3);
+    color: red;
+
+}
+
+/* instagram starts here */
+
+.fa-instagram{
+    transition: .4s;
+
+}
+
+.fa-instagram:hover{
+    transform: scale(1.3);
+    color: red;
+
+}
+
+/* discord starts here */
+
+.fa-discord{
+    transition: .4s;
+
+}
+.fa-discord:hover{
+    transform: scale(1.3);
+    color: red;
+
+}
+
+
+/* w3text strarts here */
+.w3text{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+
+/* thumb starts here */
+.thumb{
+  margin: 50px;
+  text-align: center;
+}
+.fa-thumbs-up{
+    color: orangered;
+    transition: 0.4s;
+    
+}
+.fa-thumbs-up:hover{
+    transform: rotate(360deg);
+    color: black;
+}
+/* footer section ends here */
+/* font-family: 'Rubik Distressed', cursive */
+
+
+#copyright{
+    width: 100%;
+    height: 45px;
+    background-color: #1d2a35;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    justify-content: center;
+    padding-top: 10px;
+
+
+}
+.fa-copyright{
+    color: red;
+}
+
+#design{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: yellow;
+}
+
+.fa-bolt{
+    color: red;
+    
+}
+
+#author{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: yellow;
+}
